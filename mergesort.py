@@ -1,0 +1,12 @@
+lst=[9,1,5,54,87676,-76]
+s=len(lst)
+print(s)
+a=lst[0:3]
+a.sort()
+print(a)
+b=lst[3::]
+b.sort()
+print(b)
+c=a+b
+c.sort()
+print(c)
